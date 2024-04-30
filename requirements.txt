@@ -1,6 +1,5 @@
 alabaster==0.7.16
 annotated-types==0.6.0
-apparmor==3.1.7
 appdirs==1.4.4
 asttokens==2.4.0
 attrs==23.2.0
