@@ -61,6 +61,11 @@ if __name__ == "__main__":
             debug=True,
             threaded=True,
         )
+
+    except Exception as x:
+        import traceback
+        print(traceback.format_exc())
+
     finally:
         connection_pool.close()
 else:
